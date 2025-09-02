@@ -1,0 +1,55 @@
+# This is a basic workflow to help you get started with Actions
+name: Monthly-Data-Collection-Job
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow every 5 minutes
+  schedule:
+    - cron: '0 0 1,15 * *'  
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write  # Allows writing to repository content
+  pull-requests: read # Allows reading pull request information  
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+        with: 
+          ref: main
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with: 
+          python-version: 3.11 #install the python needed
+      - name: Install dependencies
+        run: |
+            python -m pip install --upgrade pip
+            if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Execute Python script
+        run: python backend/utils/mcollector.py
+        
+      # - name: Generate the file
+      #   run: |
+      #     echo "This is the generated content." > sp500.csv
+
+      - name: Setup Git User
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "jay052005+ghub@outlook.com"
+
+      - name: Update Main Branch
+        run: |
+          git checkout main
+          git add data/*.csv
+          git commit -m "updated sp500 file"
+          git pull --rebase origin main
+          git push
