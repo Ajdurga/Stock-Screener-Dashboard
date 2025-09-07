@@ -11,12 +11,36 @@ from ta.volume import VolumeWeightedAveragePrice
 from ta.volatility import AverageTrueRange
 from ta.volume import AccDistIndexIndicator
 from ta.trend import AroonIndicator
+from ta.trend import MACD
+from ta.trend import ADXIndicator
 import time
 import mplfinance as mpf
 import numpy as np
+import requests
+
+# Suppress downcasting warning
+pd.set_option('future.no_silent_downcasting', True)
 
 
 #@st.cache_data(ttl=60)  # Cache for 1 minute
+st.set_page_config(
+        page_title="S&P Performance Dashboard",
+        page_icon="📊",
+        layout="wide",
+        initial_sidebar_state="collapsed",
+) 
+
+
+def fetch_news(ticker, counter):
+    try:
+        response = requests.get(f"https://api.tickertick.com/feed?q=z:{ticker}&n={counter}")
+        return response.json() if response.status_code == 200 else []
+    except:
+        print("Error fetching news data")
+        return []
+
+
+
 def get_data():
     with st.spinner('Fetching stock details...'):
         return main()
@@ -268,6 +292,20 @@ def generateVisuals(p_symbol, p_currency):
     #         signals.append("Sell")  # Sell signal when Aroon Down crosses above Aroon Up
     #     else:
     #         signals.append("Hold")  # Hold signal when no crossover occurs
+    macd = MACD(close=df['Close'], window_slow=26, window_fast=12, window_sign=9)
+    df['MACD'] = macd.macd()
+    df['MACD_Line'] = macd.macd_signal()
+    df['MACD_Histogram'] = macd.macd_diff()
+    df['MACD_Signal'] = 0
+    df['MACD_Signal'][(df['MACD'] < 0) & (df['MACD'] >= df['MACD_Line'])] = 1  # Buy signal
+    df['MACD_Signal'][(df['MACD'] > 0) & (df['MACD'] <= df['MACD_Line'])] = -1 # Sell signal
+    adx = ADXIndicator(high=df['High'], low=df['Low'], close=df['Close'], window=14)
+    df['ADX'] = adx.adx()
+    df['ADX_Positive'] = adx.adx_pos()
+    df['ADX_Negative'] = adx.adx_neg()
+    df['ADX_Signal'] = 0
+    df['ADX_Signal'][(df['ADX'] > 20) & (df['ADX_Positive'] > df['ADX_Negative'])] = 1  # Buy signal
+    df['ADX_Signal'][(df['ADX'] > 20) & (df['ADX_Negative'] > df['ADX_Positive'])] = -1  # Sell signal
 
     df = df.round(2)
     df = df.tail(calculate_days_from_prev_year_month_start())
@@ -359,6 +397,8 @@ def generateVisuals(p_symbol, p_currency):
         'Aroon_Up': df['Aroon_Up'].iloc[-1],
         'Aroon_Down': df['Aroon_Down'].iloc[-1],
         'Aroon_Indicator': df['Aroon_Indicator'].iloc[-1],
+        'MACD_Indicator': "BUY" if df['MACD_Signal'].iloc[-1] == 1 else "SELL" if df['MACD_Signal'].iloc[-1] == -1 else "HOLD",
+        'ADX_Indicator': "BUY" if df['ADX_Signal'].iloc[-1] == 1 else "SELL" if df['ADX_Signal'].iloc[-1] == -1 else "HOLD",
         # 'bb_bbh': df['bb_bbh'].iloc[-1],
         # 'bb_bbl': df['bb_bbl'].iloc[-1],
         # 'bb_bbhi': df['bb_bbhi'].iloc[-1],
@@ -370,6 +410,7 @@ def generateVisuals(p_symbol, p_currency):
     return fig, summary
 
 def main():
+
     st.markdown("""
 <style>
 .stTextInput input[aria-label="My colored input"] {
@@ -383,31 +424,50 @@ def main():
     symbol_valid, currency, market = validateSymbol(symbol)
     if symbol_valid:
         with st.spinner(f'Fetching stock details for {symbol}...'):
-            time.sleep(1)
-            if symbol == "SPX":
-                symbol = "^SPX"
-            col1, spacer, col2 = st.columns((1, 2, 1))
-            with col1:
-                st.write(f"Symbol: {symbol}")
-            with col2:
-                st.write(f"Exchange Name: {market}")
-            #st.write(f"Symbol: {symbol} - Exchange Name: {market}")
-            fig, summary = generateVisuals(symbol, currency)
-            if fig is not None:
-                st.pyplot(fig)
-            monthly, weekly = st.columns(2)
-            with monthly:
-                st.write("Monthly Chart")
-                monthly_chart = generate_monthly_chart(symbol)
-                if monthly_chart is not None:
-                    st.pyplot(monthly_chart)
-            with weekly:
-                st.write("Weekly Chart")
-                weekly_chart = generate_weekly_chart(symbol)
-                if weekly_chart is not None:
-                    st.pyplot(weekly_chart)
-            
-            st.write(summary)
+            with st.container():
+                c1, c2 = st.columns((3, 1))
+                with c1:    
+                    time.sleep(1)
+                    if symbol == "SPX":
+                        symbol = "^SPX"
+                    col1, spacer, col2 = st.columns((1, 2, 1))
+                    with col1:
+                        st.write(f"Symbol: {symbol}")
+                    with col2:
+                        st.write(f"Exchange Name: {market}")
+                    #st.write(f"Symbol: {symbol} - Exchange Name: {market}")
+                    fig, summary = generateVisuals(symbol, currency)
+                    if fig is not None:
+                        st.pyplot(fig)
+                    monthly, weekly = st.columns(2)
+                    with monthly:
+                        st.write("Monthly Chart")
+                        monthly_chart = generate_monthly_chart(symbol)
+                        if monthly_chart is not None:
+                            st.pyplot(monthly_chart)
+                    with weekly:
+                        st.write("Weekly Chart")
+                        weekly_chart = generate_weekly_chart(symbol)
+                        if weekly_chart is not None:
+                            st.pyplot(weekly_chart)
+                    
+                    st.write(summary)
+                with c2:
+                    st.write("Latest News")
+                    news_data = fetch_news(symbol, 10)
+                    if news_data.get('stories'):
+                        for article in news_data.get('stories'):
+                            title = article.get('title', 'No Title')
+                            url = article.get('url')
+                            if url:
+                                st.markdown(f"[{title}]({url})", unsafe_allow_html=True)
+                            else:
+                                st.markdown(f"{title}", unsafe_allow_html=True)
+                            description = article.get('description', 'No description available')
+                            if len(description) > 200:
+                                description = description[:200] + "..."
+                            st.markdown(f"<small>{description}</small>", unsafe_allow_html=True)
+                            st.divider()
     else:
        st.write(f"Invalid Symbol: {symbol}")
        return
