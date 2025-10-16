@@ -1,129 +1,130 @@
 Symbol,Company,GICS_Sector,GICS_Sub_Industry,Current_Price,High_52_Week,Low_52_Week,SMA5,SMA10,SMA20,SMA50,SMA200,Score,Target_Pcnt,Target_Price,Stop_Loss
-ABBV,AbbVie,Health Care,Biotechnology,226.22,244.38,160.57,229.37,231.16,227.97,216.43,194.72,0.2,6.39,240.68,215.26
-ACN,Accenture,Information Technology,IT Consulting & Other Services,239.71,394.31,232.56,244.09,246.25,243.26,246.69,300.88,0.2,5.88,253.8,232.71
-AES,AES Corporation,Utilities,Independent Power Producers & Energy Traders,14.75,16.89,9.5,14.44,14.45,13.9,13.4,11.72,0.2,4.27,15.38,12.42
-AFL,Aflac,Financials,Life & Health Insurance,109.81,113.07,97.56,110.74,111.45,110.51,108.01,104.84,0.2,3.59,113.75,107.27
-A,Agilent Technologies,Health Care,Life Sciences Tools & Services,139.65,151.65,98.88,138.53,139.4,132.93,126.03,122.64,0.2,5.62,147.5,118.35
-ALB,Albemarle Corporation,Materials,Specialty Chemicals,98.16,108.94,50.16,95.42,92.72,87.87,82.54,73.07,0.2,1.34,99.48,76.26
-LNT,Alliant Energy,Utilities,Electric Utilities,68.63,68.63,54.87,67.92,67.68,66.59,65.68,61.96,0.2,1.31,69.53,63.65
-AEE,Ameren,Utilities,Multi-Utilities,105.39,105.39,83.42,103.97,103.97,102.63,101.12,96.83,0.2,1.14,106.59,98.66
-AIG,American International Group,Financials,Multi-line Insurance,81.26,86.75,68.89,82.09,82.22,79.97,79.69,79.55,0.2,4.63,85.02,74.93
-APA,APA Corporation,Energy,Oil & Gas Exploration & Production,23.24,25.39,13.62,22.91,23.78,24.0,22.66,20.05,0.2,10.2,25.61,22.38
-AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals",249.34,258.1,172.0,248.82,253.05,252.67,239.73,221.76,0.2,5.54,263.15,242.19
-AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment,227.58,227.58,126.23,219.1,218.96,210.16,185.34,171.45,0.2,1.92,231.95,188.36
-ADM,Archer Daniels Midland,Consumer Staples,Agricultural Products & Services,63.38,64.21,41.01,61.8,61.67,61.11,60.93,51.78,0.2,-0.06,63.34,58.89
-AIZ,Assurant,Financials,Multi-line Insurance,214.85,225.29,178.36,217.98,218.55,216.16,213.3,202.51,0.2,3.83,223.08,209.24
-TECH,Bio-Techne,Health Care,Life Sciences Tools & Services,59.58,78.41,46.59,59.41,60.38,56.86,54.74,57.32,0.1,9.1,65.0,48.72
-BLK,BlackRock,Financials,Asset Management & Custody Banks,1202.59,1202.59,807.61,1170.35,1168.35,1157.28,1136.52,1016.53,0.2,-0.41,1197.66,1116.95
-BF-B,Brown–Forman,Consumer Staples,Distillers & Vintners,27.16,48.21,25.45,27.14,27.46,27.33,28.49,31.01,0.2,3.35,28.07,26.59
-CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment,534.05,534.05,271.63,511.59,503.06,486.81,448.79,378.2,0.2,-1.48,526.15,447.46
-CNC,Centene Corporation,Health Care,Managed Health Care,35.79,72.9,25.21,36.44,37.22,35.61,31.69,48.92,0.1,10.92,39.7,31.51
-CNP,CenterPoint Energy,Utilities,Multi-Utilities,39.86,39.86,27.88,39.38,39.25,38.89,38.33,35.96,0.2,0.28,39.97,37.8
-CRL,Charles River Laboratories,Health Care,Life Sciences Tools & Services,170.72,220.69,99.75,170.13,172.19,162.8,159.48,154.69,0.2,7.97,184.33,141.26
-CHTR,Charter Communications,Communication Services,Cable & Satellite,264.56,427.25,256.57,262.81,269.72,269.44,266.53,342.7,0.1,6.94,282.92,255.96
-CI,Cigna,Health Care,Health Care Services,294.57,351.85,260.91,299.79,302.38,295.74,295.13,303.31,0.3,5.73,311.45,280.05
-CFG,Citizens Financial Group,Financials,Regional Banks,51.7,54.0,33.59,50.97,52.08,52.63,51.18,44.53,0.4,6.34,54.98,50.28
-CMS,CMS Energy,Utilities,Multi-Utilities,75.31,75.31,63.54,74.12,73.49,72.5,72.25,70.35,0.2,-0.01,75.3,69.71
-CEG,Constellation Energy,Utilities,Electric Utilities,403.95,403.95,170.52,385.23,373.69,354.26,332.97,288.99,0.2,-1.02,399.83,308.68
-CPAY,Corpay,Financials,Transaction & Payment Processing Services,287.78,389.55,280.11,286.21,287.64,291.84,305.96,332.4,0.2,5.78,304.41,279.29
-CSX,CSX Corporation,Industrials,Rail Transportation,36.24,36.37,26.47,35.9,35.93,35.04,34.33,32.04,0.2,2.84,37.27,32.82
-CVS,CVS Health,Health Care,Health Care Services,80.67,80.67,42.33,78.68,77.92,76.74,73.1,64.41,0.2,-0.97,79.89,73.59
-DDOG,Datadog,Information Technology,Application Software,160.02,168.65,87.0,161.58,158.73,149.57,139.58,127.1,0.2,6.36,170.2,128.93
-DAY,Dayforce,Industrials,Human Resource & Employment Services,68.28,81.8,49.33,68.3,68.6,68.73,66.16,61.84,0.2,1.46,69.28,68.18
-DELL,Dell Technologies,Information Technology,"Technology Hardware, Storage & Peripherals",153.7,164.53,70.88,152.48,151.17,143.24,135.45,114.4,0.2,6.04,162.98,123.5
-DAL,Delta Air Lines,Industrials,Passenger Airlines,61.7,68.45,35.65,59.75,58.51,58.21,58.92,54.16,0.2,-0.79,61.21,55.2
-DVN,Devon Energy,Energy,Oil & Gas Exploration & Production,32.61,41.71,26.43,33.08,33.91,34.51,34.36,33.36,0.2,12.63,36.73,32.29
-DG,Dollar General,Consumer Staples,Consumer Staples Merchandise Retail,106.32,115.62,67.25,101.96,100.23,101.3,106.52,94.2,0.2,0.21,106.54,96.06
-DLTR,Dollar Tree,Consumer Staples,Consumer Staples Merchandise Retail,95.97,117.16,61.21,92.15,90.15,92.4,101.77,88.54,0.2,3.66,99.48,85.33
-DTE,DTE Energy,Utilities,Multi-Utilities,142.46,142.46,113.22,140.94,140.97,139.64,137.95,131.57,0.2,1.0,143.88,135.39
-DUK,Duke Energy,Utilities,Electric Utilities,128.67,128.67,102.96,126.86,125.46,123.93,123.15,116.68,0.4,-0.26,128.34,119.53
-ELV,Elevance Health,Health Care,Managed Health Care,349.49,499.89,273.17,352.55,352.33,336.58,317.92,366.34,0.1,5.87,370.01,303.16
-ETR,Entergy,Utilities,Electric Utilities,97.65,97.65,64.05,96.18,96.0,93.54,90.79,84.1,0.2,1.79,99.4,87.69
-EQIX,Equinix,Real Estate,Data Center REITs,822.24,968.75,731.64,810.98,798.68,793.33,783.9,833.3,0.1,-0.26,820.1,766.52
-ESS,Essex Property Trust,Real Estate,Multi-Family Residential REITs,257.15,305.43,249.65,257.8,260.29,262.46,261.03,274.92,0.1,4.57,268.9,256.01
-EXPE,Expedia Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",218.43,228.24,136.05,216.87,217.36,218.54,213.81,183.37,0.2,3.53,226.14,210.95
-EXR,Extra Space Storage,Real Estate,Self-Storage REITs,149.19,165.33,123.86,145.42,143.83,141.81,140.67,143.9,0.3,-1.01,147.68,135.93
-FFIV,"F5, Inc.",Information Technology,Communications Equipment,330.75,343.17,213.57,337.73,334.32,330.25,323.51,291.85,0.4,3.83,343.42,317.07
-FICO,Fair Isaac,Information Technology,Application Software,1636.65,2382.4,1311.26,1662.03,1737.02,1629.41,1518.08,1743.51,0.1,14.95,1881.33,1377.51
-FRT,Federal Realty Investment Trust,Real Estate,Retail REITs,98.22,112.47,81.67,97.05,97.76,98.28,97.33,96.33,0.2,2.17,100.35,96.22
-FDX,FedEx,Industrials,Air Freight & Logistics,235.8,298.15,195.55,232.35,237.8,236.0,230.72,234.18,0.1,4.86,247.26,224.74
-FIS,Fidelity National Information Services,Financials,Transaction & Payment Processing Services,66.56,89.09,63.37,67.41,67.4,66.19,67.91,74.23,0.4,4.0,69.22,63.16
-FSLR,First Solar,Information Technology,Semiconductors,244.4,244.4,120.38,231.04,230.63,224.72,208.69,169.38,0.2,-1.69,240.27,209.18
-FOXA,Fox Corporation (Class A),Communication Services,Broadcasting,57.55,63.06,41.16,57.98,59.7,60.54,59.21,54.5,0.2,11.21,64.0,57.08
-FOX,Fox Corporation (Class B),Communication Services,Broadcasting,51.6,57.29,37.82,51.94,53.52,54.48,53.65,50.26,0.2,12.21,57.9,51.06
-GRMN,Garmin,Consumer Discretionary,Consumer Electronics,249.43,259.77,159.13,250.93,254.32,247.49,239.52,215.87,0.2,6.09,264.62,230.36
-GNRC,Generac,Industrials,Electrical Components & Equipment,191.67,202.85,101.92,178.32,172.97,172.48,182.62,148.74,0.2,-1.59,188.62,156.33
-GM,General Motors,Consumer Discretionary,Automobile Manufacturers,57.8,61.34,42.24,56.37,57.32,58.7,57.68,51.08,0.4,8.11,62.49,54.92
-GL,Globe Life,Financials,Life & Health Insurance,138.1,146.27,102.63,137.38,136.93,140.29,139.94,126.42,0.2,6.96,147.71,132.86
-HIG,Hartford (The),Financials,Property & Casualty Insurance,128.66,134.7,105.0,129.55,131.35,131.67,131.32,122.09,0.2,4.74,134.76,128.58
-HCA,HCA Healthcare,Health Care,Health Care Facilities,420.25,437.57,294.93,416.67,423.7,419.04,407.08,358.92,0.2,4.26,438.15,399.94
-HLT,Hilton Worldwide,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",265.11,278.5,201.05,263.3,261.27,262.13,267.85,252.9,0.2,1.4,268.82,255.43
-HII,Huntington Ingalls Industries,Industrials,Aerospace & Defense,284.96,291.94,156.78,286.79,286.51,282.4,274.44,228.21,0.2,3.16,293.96,270.85
-IBM,IBM,Information Technology,IT Consulting & Other Services,280.75,293.87,199.27,280.03,284.8,280.24,259.83,253.77,0.2,5.67,296.67,263.82
-IR,Ingersoll Rand,Industrials,Industrial Machinery & Supplies & Components,76.67,105.27,66.72,76.92,79.85,80.86,79.76,82.54,0.1,12.01,85.88,75.83
-IFF,International Flavors & Fragrances,Materials,Specialty Chemicals,61.93,103.8,59.55,60.68,61.09,61.35,63.69,73.93,0.2,2.23,63.31,59.38
-IQV,IQVIA,Health Care,Life Sciences Tools & Services,203.12,236.69,137.0,202.56,203.03,194.7,190.06,177.2,0.2,5.64,214.58,174.81
-JKHY,Jack Henry & Associates,Financials,Transaction & Payment Processing Services,154.46,189.99,146.26,152.33,150.1,150.23,156.85,170.46,0.2,0.49,155.22,145.25
-J,Jacobs Solutions,Industrials,Construction & Engineering,160.63,160.63,109.18,155.83,155.54,152.25,148.99,132.92,0.4,-0.35,160.07,144.44
-JCI,Johnson Controls,Industrials,Building Products,110.82,111.73,70.88,107.67,108.21,108.16,107.11,94.25,0.2,-0.01,110.81,105.51
-KDP,Keurig Dr Pepper,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,26.93,35.85,25.3,26.34,25.95,25.96,28.88,31.68,0.2,0.3,27.01,24.9
-KEYS,Keysight Technologies,Information Technology,Electronic Equipment & Instruments,164.84,185.11,127.02,164.72,168.77,172.01,168.49,161.84,0.2,10.45,182.07,161.96
-LHX,L3Harris,Industrials,Aerospace & Defense,289.72,306.76,191.79,294.73,297.84,294.26,282.24,239.43,0.2,6.63,308.93,279.59
-LW,Lamb Weston,Consumer Staples,Packaged Foods & Meats,63.98,80.72,47.73,64.06,63.61,59.77,57.17,55.09,0.2,6.64,68.23,51.31
-LII,Lennox International,Industrials,Building Products,526.99,672.47,505.24,528.18,538.84,533.57,556.95,577.99,0.2,5.56,556.29,510.82
-LLY,Lilly (Eli),Health Care,Pharmaceuticals,826.57,925.78,624.28,829.43,834.13,792.7,746.15,783.75,0.1,7.34,887.24,698.18
-LMT,Lockheed Martin,Industrials,Aerospace & Defense,499.41,597.79,407.77,504.25,506.44,496.31,467.82,458.35,0.2,4.32,520.98,471.63
-L,Loews Corporation,Financials,Multi-line Insurance,100.31,103.05,76.29,101.47,101.91,100.34,97.66,89.9,0.2,3.89,104.21,96.48
-LULU,Lululemon Athletica,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",167.1,421.16,159.87,169.41,172.3,173.56,182.53,274.84,0.2,8.32,181.0,166.11
-MLM,Martin Marietta Materials,Materials,Construction Materials,639.16,656.85,451.25,640.16,636.55,626.99,617.67,548.5,0.2,1.81,650.73,603.24
-MCD,McDonald's,Consumer Discretionary,Restaurants,305.25,317.67,275.0,300.15,298.84,300.87,305.57,300.82,0.2,0.85,307.84,293.88
-MRK,Merck & Co.,Health Care,Pharmaceuticals,84.11,107.55,72.03,85.6,86.95,84.07,83.22,83.86,0.1,9.4,92.02,76.11
-MOH,Molina Healthcare,Health Care,Managed Health Care,192.39,353.24,152.31,195.19,197.89,192.37,179.93,262.09,0.1,7.86,207.51,177.22
-MDLZ,Mondelez International,Consumer Staples,Packaged Foods & Meats,61.66,70.19,54.9,61.48,61.79,62.34,61.86,63.23,0.1,3.55,63.85,60.82
-MPWR,Monolithic Power Systems,Information Technology,Semiconductors,1007.93,1007.93,453.43,968.31,958.54,932.72,876.6,705.05,0.4,-0.48,1003.09,862.37
-NEM,Newmont,Materials,Gold,93.58,93.58,36.49,88.77,88.1,85.83,78.0,57.12,0.2,-1.42,92.25,79.41
-NTRS,Northern Trust,Financials,Asset Management & Custody Banks,129.88,134.6,83.34,128.13,130.17,131.08,129.15,112.24,0.2,4.43,135.63,126.53
-NOC,Northrop Grumman,Industrials,Aerospace & Defense,608.93,637.95,427.78,622.65,620.59,604.06,591.2,514.86,0.4,5.79,644.19,563.91
-NUE,Nucor,Materials,Steel,136.76,164.83,102.37,136.81,137.03,135.99,140.54,128.46,0.2,2.01,139.51,132.46
-ON,ON Semiconductor,Information Technology,Semiconductors,50.36,74.7,31.95,49.14,49.31,49.81,49.57,49.09,0.2,4.19,52.47,47.15
-PKG,Packaging Corporation of America,Materials,Paper & Plastic Packaging Products & Materials,209.65,242.86,173.82,209.26,211.32,212.92,209.11,201.49,0.2,4.24,218.54,207.3
-PSKY,Paramount Skydance Corporation,Communication Services,Movies & Entertainment,17.43,19.73,10.05,17.36,18.06,18.5,16.21,12.74,0.2,15.03,20.05,16.95
-PH,Parker Hannifin,Industrials,Industrial Machinery & Supplies & Components,737.86,769.67,514.56,731.68,744.72,749.51,748.39,676.44,0.2,4.82,773.42,725.63
-PNR,Pentair,Industrials,Industrial Machinery & Supplies & Components,110.31,112.59,75.76,109.32,110.57,110.28,108.68,99.01,0.2,2.32,112.87,107.69
-PEP,PepsiCo,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,151.16,169.55,125.83,149.28,145.0,143.08,144.41,140.04,0.2,-0.18,150.89,135.28
-PCG,PG&E Corporation,Utilities,Multi-Utilities,16.68,21.5,12.98,16.23,16.16,15.53,15.29,15.82,0.1,1.68,16.96,14.09
-PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,129.57,139.46,91.09,129.61,131.26,132.94,129.55,119.97,0.2,7.8,139.68,126.22
-PPL,PPL Corporation,Utilities,Electric Utilities,37.97,37.97,30.58,37.49,37.25,36.8,36.4,34.55,0.2,0.45,38.14,35.45
-PLD,Prologis,Real Estate,Industrial REITs,122.76,122.76,88.13,115.32,115.89,115.07,111.72,108.63,0.4,-2.49,119.7,110.44
-PSA,Public Storage,Real Estate,Self-Storage REITs,301.0,337.69,260.94,298.24,295.14,289.57,286.87,288.94,0.1,0.79,303.38,275.76
-REGN,Regeneron Pharmaceuticals,Health Care,Biotechnology,576.42,1012.19,482.34,568.26,577.39,577.37,573.5,601.46,0.1,5.49,608.07,546.71
-HOOD,Robinhood Markets,Financials,Investment Banking & Brokerage,134.15,152.46,23.49,140.24,143.57,136.14,120.58,75.95,0.2,16.5,156.28,115.98
-ROST,Ross Stores,Consumer Discretionary,Apparel Retail,156.99,156.99,122.22,152.94,152.81,150.93,149.11,140.72,0.2,0.56,157.87,143.99
-CRM,Salesforce,Information Technology,Application Software,236.58,365.66,231.26,242.42,241.73,242.55,243.87,274.33,0.2,5.85,250.42,234.69
-STX,Seagate Technology,Information Technology,"Technology Hardware, Storage & Peripherals",219.38,256.84,65.98,217.32,228.63,227.96,194.19,128.2,0.2,16.04,254.57,201.36
-NOW,ServiceNow,Information Technology,Systems Software,903.05,1170.39,721.65,908.93,909.85,922.22,908.86,946.5,0.1,5.95,956.78,887.66
-SW,Smurfit Westrock,Materials,Paper & Plastic Packaging Products & Materials,41.76,55.13,37.46,41.77,41.75,42.39,43.81,45.43,0.2,6.49,44.47,40.32
-STLD,Steel Dynamics,Materials,Steel,146.05,151.94,108.4,145.52,144.8,141.51,134.15,128.37,0.2,2.11,149.13,133.9
-SMCI,Supermicro,Information Technology,"Technology Hardware, Storage & Peripherals",53.94,60.71,18.01,54.53,54.55,50.8,46.65,42.07,0.2,9.94,59.3,42.3
-SYY,Sysco,Consumer Staples,Food Distributors,80.09,82.73,67.09,79.0,79.94,80.69,80.37,74.69,0.2,4.16,83.42,77.97
-TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers,435.15,479.86,213.65,429.86,434.02,434.86,382.94,334.62,0.2,4.92,456.56,413.16
-TPL,Texas Pacific Land Corporation,Energy,Oil & Gas Exploration & Production,926.75,1720.9,853.36,905.11,932.71,927.54,914.35,1148.97,0.1,6.31,985.23,869.82
-TXT,Textron,Industrials,Aerospace & Defense,82.51,90.23,60.69,82.84,84.6,84.12,81.84,76.71,0.2,5.85,87.34,80.89
-TMO,Thermo Fisher Scientific,Health Care,Life Sciences Tools & Services,527.87,605.06,389.91,527.55,532.54,505.0,491.3,477.37,0.2,7.51,567.51,442.5
-TKO,TKO Group Holdings,Communication Services,Movies & Entertainment,191.21,205.33,113.99,188.66,192.89,196.57,190.92,166.05,0.2,8.35,207.18,185.98
-TTD,Trade Desk (The),Communication Services,Advertising,51.1,139.51,43.93,51.91,52.27,49.64,52.2,71.9,0.2,9.12,55.76,43.53
-TSCO,Tractor Supply,Consumer Discretionary,Other Specialty Retail,55.81,62.65,47.62,54.93,54.9,56.25,58.72,54.62,0.2,7.04,59.74,52.76
-USB,U.S. Bancorp,Financials,Diversified Banks,46.45,51.35,35.62,46.42,47.03,47.92,47.41,44.41,0.2,8.05,50.19,45.64
-UBER,Uber,Industrials,Passenger Ground Transportation,94.52,100.1,59.93,94.45,96.26,97.05,95.07,83.27,0.2,6.82,100.97,93.14
-UAL,United Airlines Holdings,Industrials,Passenger Airlines,104.05,110.52,56.15,100.89,98.64,99.66,100.94,88.82,0.2,2.98,107.15,92.16
-URI,United Rentals,Industrials,Trading Companies & Distributors,1020.0,1020.0,549.5,985.1,985.48,965.68,943.28,761.34,0.4,-0.6,1013.88,917.42
-VRTX,Vertex Pharmaceuticals,Health Care,Biotechnology,407.9,516.74,366.54,410.03,409.66,398.25,393.69,444.95,0.1,4.1,424.62,371.9
-WBD,Warner Bros. Discovery,Communication Services,Broadcasting,18.45,19.82,7.33,17.8,18.28,18.84,15.27,11.56,0.2,10.51,20.39,17.29
-WAT,Waters Corporation,Health Care,Life Sciences Tools & Services,332.41,417.28,277.72,332.67,328.73,313.87,302.52,342.91,0.1,4.39,347.0,280.75
-WEC,WEC Energy Group,Utilities,Electric Utilities,117.28,117.28,89.8,115.55,114.74,113.33,110.27,104.82,0.2,0.22,117.54,109.12
-WFC,Wells Fargo,Financials,Diversified Banks,86.46,86.46,60.29,81.49,81.02,82.53,80.87,75.78,0.2,1.15,87.45,77.61
-WELL,Welltower,Real Estate,Health Care REITs,172.34,179.38,122.12,168.35,170.86,171.58,168.56,152.07,0.2,4.35,179.84,163.31
-WST,West Pharmaceutical Services,Health Care,Health Care Supplies,262.95,347.02,190.04,262.39,265.96,262.12,253.57,246.04,0.2,4.5,274.78,249.46
-WDC,Western Digital,Information Technology,"Technology Hardware, Storage & Peripherals",120.44,131.31,30.45,117.51,121.65,117.11,97.13,62.46,0.2,10.64,133.25,100.96
-XYL,Xylem Inc.,Industrials,Industrial Machinery & Supplies & Components,145.77,149.9,102.25,145.89,147.46,145.58,143.14,128.41,0.2,3.59,151.0,140.14
-YUM,Yum! Brands,Consumer Discretionary,Restaurants,144.51,160.96,121.48,142.65,145.68,147.91,146.68,144.6,0.2,7.74,155.7,140.12
+ABBV,AbbVie,Health Care,Biotechnology,226.87,242.63,159.42,227.62,228.86,226.75,215.55,193.61,0.2,5.36,239.03,214.46
+AES,AES Corporation,Utilities,Independent Power Producers & Energy Traders,14.82,16.89,9.5,14.49,14.5,14.0,13.44,11.73,0.2,4.32,15.46,12.53
+A,Agilent Technologies,Health Care,Life Sciences Tools & Services,141.1,151.65,98.88,138.73,139.64,133.61,126.59,122.67,0.2,5.15,148.37,118.85
+ALB,Albemarle Corporation,Materials,Specialty Chemicals,95.29,108.94,50.16,95.18,93.49,88.59,83.11,73.11,0.2,5.11,100.16,77.01
+LNT,Alliant Energy,Utilities,Electric Utilities,67.6,68.63,54.87,67.99,67.81,66.78,65.72,62.01,0.2,2.74,69.45,64.11
+AEE,Ameren,Utilities,Multi-Utilities,105.21,105.39,83.42,104.41,104.2,102.96,101.21,96.91,0.2,1.35,106.63,99.29
+AEP,American Electric Power,Utilities,Electric Utilities,117.53,118.53,87.97,117.66,117.13,113.39,111.79,104.4,0.2,3.58,121.74,105.05
+AXP,American Express,Financials,Consumer Finance,323.12,341.44,230.22,325.2,326.03,331.56,323.12,298.78,0.2,7.2,346.38,316.75
+AMT,American Tower,Real Estate,Telecom Tower REITs,191.47,230.32,169.21,187.58,187.16,189.64,195.83,202.42,0.2,2.26,195.8,183.49
+APH,Amphenol,Information Technology,Electronic Components,127.36,127.36,58.9,124.24,124.34,123.87,116.96,88.86,0.2,-0.26,127.03,120.71
+AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment,227.72,227.72,126.23,220.58,219.37,212.06,186.34,171.76,0.2,2.33,233.03,191.1
+ATO,Atmos Energy,Utilities,Gas Utilities,176.37,179.19,134.17,177.05,175.43,171.34,167.49,154.23,0.2,2.55,180.87,161.81
+BAC,Bank of America,Financials,Diversified Banks,50.44,52.42,34.0,50.06,50.13,50.9,49.79,45.06,0.2,5.33,53.13,48.68
+TECH,Bio-Techne,Health Care,Life Sciences Tools & Services,61.6,78.41,46.59,59.75,60.33,57.29,54.98,57.27,0.1,6.3,65.48,49.1
+BF-B,Brown–Forman,Consumer Staples,Distillers & Vintners,28.28,48.21,25.45,27.32,27.52,27.37,28.45,30.96,0.2,-0.21,28.22,26.52
+BLDR,Builders FirstSource,Industrials,Building Products,122.95,198.25,105.63,124.11,126.04,123.86,132.72,130.88,0.2,6.9,131.43,116.29
+KMX,CarMax,Consumer Discretionary,Automotive Retail,43.27,89.19,43.17,43.71,44.51,47.45,54.59,67.51,0.2,34.0,57.98,36.92
+CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment,540.96,540.96,271.63,519.71,508.1,490.51,451.05,379.11,0.2,-1.06,535.23,445.78
+CNC,Centene Corporation,Health Care,Managed Health Care,35.64,69.3,25.21,36.0,37.1,35.78,31.89,48.8,0.1,11.0,39.56,32.0
+CNP,CenterPoint Energy,Utilities,Multi-Utilities,39.67,39.86,27.88,39.49,39.39,38.97,38.36,36.0,0.2,0.93,40.04,37.9
+CRL,Charles River Laboratories,Health Care,Life Sciences Tools & Services,174.95,220.69,99.75,170.69,172.15,163.69,159.98,154.64,0.2,6.13,185.67,141.71
+SCHW,Charles Schwab Corporation,Financials,Investment Banking & Brokerage,93.41,98.69,68.65,93.32,93.65,93.95,94.75,85.89,0.2,3.03,96.24,91.66
+C,Citigroup,Financials,Diversified Banks,96.26,103.49,57.29,97.18,97.21,99.46,97.41,81.52,0.2,9.38,105.29,93.63
+KO,Coca-Cola Company (The),Consumer Staples,Soft Drinks & Non-alcoholic Beverages,67.59,72.82,59.48,67.2,66.81,66.54,67.64,67.91,0.2,-0.09,67.53,65.55
+ED,Consolidated Edison,Utilities,Multi-Utilities,101.07,111.42,85.77,101.7,100.83,99.62,99.55,100.09,0.1,1.92,103.01,96.24
+CEG,Constellation Energy,Utilities,Electric Utilities,396.53,403.95,170.52,387.89,377.59,357.95,334.14,289.85,0.2,2.05,404.66,311.24
+CSX,CSX Corporation,Industrials,Rail Transportation,35.99,36.37,26.47,35.88,35.97,35.17,34.33,32.06,0.2,3.64,37.3,33.04
+CVS,CVS Health,Health Care,Health Care Services,81.37,81.37,42.33,79.61,78.32,77.09,73.46,64.6,0.2,-0.9,80.64,73.53
+DDOG,Datadog,Information Technology,Application Software,151.17,168.65,87.0,159.0,158.69,150.29,139.87,127.13,0.4,12.51,170.08,130.5
+DELL,Dell Technologies,Information Technology,"Technology Hardware, Storage & Peripherals",151.31,164.53,70.88,151.55,151.56,144.2,135.91,114.58,0.2,8.09,163.55,124.86
+DVN,Devon Energy,Energy,Oil & Gas Exploration & Production,32.03,40.08,26.43,32.61,33.68,34.36,34.36,33.37,0.2,14.92,36.81,31.91
+FANG,Diamondback Energy,Energy,Oil & Gas Exploration & Production,139.44,181.42,117.58,141.03,144.39,143.83,141.98,145.59,0.1,7.8,150.32,137.34
+DG,Dollar General,Consumer Staples,Consumer Staples Merchandise Retail,103.88,115.62,67.25,103.0,100.53,101.18,106.34,94.35,0.2,2.1,106.06,96.3
+DLTR,Dollar Tree,Consumer Staples,Consumer Staples Merchandise Retail,94.03,117.16,61.21,93.16,90.53,92.19,101.32,88.63,0.2,5.06,98.79,85.59
+DTE,DTE Energy,Utilities,Multi-Utilities,141.5,142.46,113.22,141.23,141.2,139.96,138.02,131.69,0.2,1.58,143.74,136.19
+DUK,Duke Energy,Utilities,Electric Utilities,127.4,128.67,102.96,127.4,126.04,124.28,123.22,116.79,0.2,0.95,128.61,119.95
+DD,DuPont,Materials,Specialty Chemicals,78.13,84.81,54.51,76.78,77.95,77.7,76.26,72.71,0.2,4.02,81.27,74.14
+ELV,Elevance Health,Health Care,Managed Health Care,348.18,488.04,273.17,350.56,353.12,338.2,319.39,366.25,0.1,6.42,370.53,305.85
+ETR,Entergy,Utilities,Electric Utilities,96.02,97.65,64.76,96.26,96.24,93.95,90.92,84.21,0.2,3.38,99.27,88.64
+ERIE,Erie Indemnity,Financials,Insurance Brokers,311.93,517.76,310.72,319.05,319.68,317.04,334.22,368.15,0.2,4.42,325.72,308.36
+ESS,Essex Property Trust,Real Estate,Multi-Family Residential REITs,257.6,305.43,249.65,257.51,259.66,262.04,261.14,274.84,0.1,4.27,268.6,255.48
+EVRG,Evergy,Utilities,Electric Utilities,77.5,78.65,57.24,77.84,77.55,75.9,73.38,67.55,0.2,3.05,79.86,71.94
+ES,Eversource Energy,Utilities,Electric Utilities,71.36,73.49,52.98,71.5,72.15,70.86,66.71,61.77,0.2,4.5,74.57,67.15
+EXPE,Expedia Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",213.57,228.24,136.05,216.22,216.95,218.12,214.39,183.52,0.2,5.75,225.85,210.4
+EXR,Extra Space Storage,Real Estate,Self-Storage REITs,152.0,165.33,123.86,147.21,144.88,142.27,140.98,143.95,0.1,-1.55,149.64,134.9
+XOM,ExxonMobil,Energy,Integrated Oil & Gas,110.64,118.64,98.11,111.5,112.62,113.13,111.43,108.32,0.2,5.16,116.35,109.91
+FDS,FactSet,Financials,Financial Exchanges & Data,278.01,490.93,275.01,283.37,281.56,284.72,334.95,414.54,0.2,5.85,294.27,275.17
+FICO,Fair Isaac,Information Technology,Application Software,1620.14,2382.4,1311.26,1644.3,1720.57,1634.31,1522.61,1741.43,0.1,16.13,1881.47,1387.18
+FRT,Federal Realty Investment Trust,Real Estate,Retail REITs,98.03,112.47,81.67,97.23,97.66,98.23,97.45,96.29,0.2,2.27,100.26,96.2
+FDX,FedEx,Industrials,Air Freight & Logistics,236.91,298.15,195.55,232.33,237.26,236.52,230.96,233.99,0.1,4.22,246.91,226.14
+FIS,Fidelity National Information Services,Financials,Transaction & Payment Processing Services,65.81,89.09,63.37,66.86,67.34,66.17,67.83,74.16,0.2,5.15,69.2,63.13
+FSLR,First Solar,Information Technology,Semiconductors,237.79,244.4,120.38,231.74,231.19,226.13,209.74,169.65,0.2,1.37,241.05,211.22
+FE,FirstEnergy,Utilities,Electric Utilities,46.79,47.69,37.17,47.18,46.79,45.74,44.39,41.05,0.2,3.4,48.38,43.09
+FOXA,Fox Corporation (Class A),Communication Services,Broadcasting,57.0,63.06,41.32,57.61,59.19,60.4,59.28,54.54,0.2,12.6,64.18,56.62
+FOX,Fox Corporation (Class B),Communication Services,Broadcasting,51.27,57.29,37.95,51.67,53.06,54.34,53.69,50.29,0.2,13.19,58.03,50.65
+GRMN,Garmin,Consumer Discretionary,Consumer Electronics,246.74,259.77,159.13,248.97,253.22,247.97,239.87,216.07,0.2,7.18,264.46,231.48
+GNRC,Generac,Industrials,Electrical Components & Equipment,192.64,202.85,101.92,182.47,175.23,172.91,182.59,148.92,0.2,-1.03,190.66,155.17
+GPN,Global Payments,Financials,Transaction & Payment Processing Services,83.66,118.08,67.06,84.66,86.22,85.96,85.92,88.68,0.1,6.61,89.19,82.72
+GL,Globe Life,Financials,Life & Health Insurance,133.61,146.27,102.63,136.81,136.37,139.8,139.79,126.54,0.2,10.49,147.63,131.98
+HCA,HCA Healthcare,Health Care,Health Care Facilities,419.6,437.57,294.93,416.81,422.99,419.97,408.16,359.51,0.2,4.19,437.18,402.74
+IBM,IBM,Information Technology,IT Consulting & Other Services,275.97,293.87,199.27,277.58,283.73,280.79,260.34,254.06,0.2,7.19,295.81,265.77
+INCY,Incyte,Health Care,Biotechnology,87.31,88.15,55.17,85.99,86.13,85.37,84.88,71.71,0.2,1.53,88.65,82.08
+IFF,International Flavors & Fragrances,Materials,Specialty Chemicals,62.6,103.8,59.55,61.17,61.2,61.31,63.62,73.83,0.2,0.88,63.15,59.47
+IVZ,Invesco,Financials,Asset Management & Custody Banks,22.8,24.13,11.86,23.12,23.58,23.16,22.22,17.55,0.2,7.19,24.44,21.88
+IQV,IQVIA,Health Care,Life Sciences Tools & Services,205.75,236.69,137.0,203.11,203.17,195.47,190.63,177.23,0.2,4.88,215.79,175.14
+JKHY,Jack Henry & Associates,Financials,Transaction & Payment Processing Services,152.94,189.99,146.26,153.05,150.76,150.15,156.58,170.35,0.2,1.29,154.91,145.39
+J,Jacobs Solutions,Industrials,Construction & Engineering,156.07,160.63,109.18,155.95,155.75,152.58,149.18,133.03,0.2,2.82,160.47,144.69
+KDP,Keurig Dr Pepper,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,27.72,35.85,25.3,26.72,26.15,25.99,28.77,31.67,0.4,-1.77,27.23,24.76
+LHX,L3Harris,Industrials,Aerospace & Defense,284.29,306.76,191.79,291.95,296.66,294.34,282.41,239.81,0.2,8.61,308.77,279.9
+LH,Labcorp,Health Care,Health Care Services,283.71,287.06,211.06,280.15,278.77,279.41,276.22,252.03,0.2,0.47,285.04,273.78
+LII,Lennox International,Industrials,Building Products,523.94,672.47,505.24,526.1,536.57,532.74,555.56,577.54,0.2,6.05,555.64,509.86
+LMT,Lockheed Martin,Industrials,Aerospace & Defense,493.25,597.79,407.77,501.34,505.83,497.29,469.05,458.42,0.2,5.37,519.74,474.84
+MLM,Martin Marietta Materials,Materials,Construction Materials,624.14,656.85,451.25,638.23,636.17,627.18,618.2,548.98,0.2,4.27,650.79,603.57
+MCD,McDonald's,Consumer Discretionary,Restaurants,305.33,317.67,275.0,302.45,299.38,301.08,305.56,300.9,0.2,0.98,308.32,293.82
+MU,Micron Technology,Information Technology,Semiconductors,202.53,202.53,64.62,191.18,190.93,178.74,149.32,110.78,0.2,2.3,207.19,150.3
+MRNA,Moderna,Health Care,Biotechnology,27.14,57.46,23.51,26.94,27.35,26.66,25.96,29.79,0.1,6.82,28.99,24.33
+MHK,Mohawk Industries,Consumer Discretionary,Home Furnishings,126.99,161.25,97.99,123.39,123.67,126.06,129.08,116.38,0.2,5.09,133.45,118.67
+MDLZ,Mondelez International,Consumer Staples,Packaged Foods & Meats,61.6,70.19,54.9,61.6,61.77,62.28,61.86,63.24,0.1,3.59,63.81,60.74
+MPWR,Monolithic Power Systems,Information Technology,Semiconductors,1026.83,1026.83,453.43,977.82,968.17,938.25,881.04,707.15,0.4,-0.75,1019.13,857.36
+MNST,Monster Beverage,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,70.16,70.16,46.16,68.84,68.44,67.05,64.98,59.17,0.2,0.83,70.74,63.37
+NDAQ,"Nasdaq, Inc.",Financials,Financial Exchanges & Data,87.94,96.67,66.01,89.08,89.09,88.58,91.98,83.68,0.2,3.41,90.94,86.23
+NFLX,Netflix,Communication Services,Movies & Entertainment,1183.59,1339.13,687.65,1208.27,1199.43,1201.44,1213.16,1106.98,0.2,5.35,1246.91,1156.0
+NEM,Newmont,Materials,Gold,98.27,98.27,36.49,91.39,89.29,86.83,78.61,57.42,0.2,-3.97,94.37,79.29
+NI,NiSource,Utilities,Multi-Utilities,43.22,44.17,33.44,43.06,43.37,42.82,42.07,39.6,0.2,3.35,44.67,40.96
+NOC,Northrop Grumman,Industrials,Aerospace & Defense,598.98,637.95,427.78,615.44,619.99,605.32,591.44,515.53,0.2,7.37,643.12,567.54
+NUE,Nucor,Materials,Steel,132.66,164.83,102.37,135.71,136.4,135.93,140.43,128.55,0.2,5.25,139.62,132.24
+ON,ON Semiconductor,Information Technology,Semiconductors,52.97,74.7,31.95,49.74,49.74,49.87,49.69,49.02,0.2,-0.43,52.74,47.0
+ORCL,Oracle Corporation,Information Technology,Application Software,313.0,327.76,122.35,303.32,296.22,296.63,270.86,199.0,0.2,2.81,321.8,271.48
+PSKY,Paramount Skydance Corporation,Communication Services,Movies & Entertainment,16.9,19.73,10.05,17.14,17.89,18.45,16.33,12.77,0.2,19.17,20.14,16.77
+PEP,PepsiCo,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,152.67,169.35,125.83,150.87,146.04,143.68,144.68,140.06,0.2,-0.14,152.46,134.92
+PCG,PG&E Corporation,Utilities,Multi-Utilities,16.5,21.5,12.98,16.28,16.25,15.61,15.32,15.81,0.1,3.45,17.07,14.14
+PM,Philip Morris International,Consumer Staples,Tobacco,155.98,181.86,114.18,158.54,156.62,158.78,162.44,157.75,0.2,5.69,164.86,152.7
+PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,128.36,139.46,91.09,129.06,130.6,132.79,129.74,120.07,0.2,8.9,139.78,125.8
+PPL,PPL Corporation,Utilities,Electric Utilities,37.31,37.97,30.58,37.56,37.34,36.88,36.43,34.57,0.2,2.17,38.12,35.64
+PLD,Prologis,Real Estate,Industrial REITs,121.17,122.76,88.13,116.67,116.39,115.37,112.05,108.72,0.4,-0.38,120.71,110.03
+PSA,Public Storage,Real Estate,Self-Storage REITs,306.73,337.69,260.94,300.79,296.9,290.72,287.44,289.03,0.1,-0.19,306.15,275.3
+REG,Regency Centers,Real Estate,Retail REITs,71.72,75.5,64.21,71.56,71.47,71.51,71.37,70.68,0.2,1.45,72.76,70.26
+REGN,Regeneron Pharmaceuticals,Health Care,Biotechnology,569.17,1012.19,482.34,568.11,574.3,575.9,573.8,600.76,0.1,6.32,605.14,546.67
+HOOD,Robinhood Markets,Financials,Investment Banking & Brokerage,131.44,152.46,23.49,136.04,142.14,136.66,121.1,76.41,0.2,18.47,155.72,117.61
+ROST,Ross Stores,Consumer Discretionary,Apparel Retail,155.21,156.99,122.22,153.99,152.72,151.39,149.3,140.74,0.2,1.92,158.19,144.58
+SBAC,SBA Communications,Real Estate,Telecom Tower REITs,197.42,244.52,187.49,192.03,190.45,192.91,202.25,214.89,0.2,1.54,200.46,185.37
+STX,Seagate Technology,Information Technology,"Technology Hardware, Storage & Peripherals",226.03,256.84,65.98,218.19,225.76,228.46,195.77,128.9,0.2,12.6,254.51,202.41
+SRE,Sempra,Utilities,Multi-Utilities,91.14,94.01,62.78,91.23,91.9,89.31,84.6,77.56,0.2,5.21,95.89,82.73
+NOW,ServiceNow,Information Technology,Systems Software,894.49,1170.39,721.65,904.24,908.29,919.56,908.5,945.57,0.1,6.66,954.06,885.07
+SW,Smurfit Westrock,Materials,Paper & Plastic Packaging Products & Materials,41.32,55.13,37.46,41.46,41.69,42.25,43.79,45.37,0.2,6.99,44.21,40.29
+SO,Southern Company,Utilities,Electric Utilities,98.43,99.72,78.98,98.84,97.3,95.54,93.89,89.31,0.2,1.6,100.0,91.08
+STLD,Steel Dynamics,Materials,Steel,142.65,151.94,108.4,144.49,144.62,141.68,134.56,128.51,0.2,4.62,149.24,134.12
+SMCI,Supermicro,Information Technology,"Technology Hardware, Storage & Peripherals",53.84,60.71,18.01,53.7,54.68,51.2,46.79,42.18,0.2,10.49,59.49,42.9
+SYY,Sysco,Consumer Staples,Food Distributors,78.83,82.73,67.09,79.16,79.55,80.57,80.33,74.71,0.2,5.77,83.38,77.75
+TER,Teradyne,Information Technology,Semiconductor Materials & Equipment,139.3,147.87,67.79,137.7,141.2,138.03,123.77,102.86,0.2,8.03,150.49,125.59
+TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers,428.75,479.86,213.65,428.51,433.29,435.45,385.11,334.61,0.2,6.3,455.76,415.16
+TXT,Textron,Industrials,Aerospace & Defense,81.65,90.23,60.69,82.24,84.13,84.0,81.93,76.74,0.2,7.04,87.4,80.6
+TMO,Thermo Fisher Scientific,Health Care,Life Sciences Tools & Services,536.78,605.06,389.91,527.97,533.72,507.79,493.07,477.43,0.2,6.33,570.76,444.83
+TJX,TJX Companies,Consumer Discretionary,Apparel Retail,142.55,145.16,110.99,142.72,142.0,141.94,138.97,127.45,0.2,2.16,145.63,138.24
+TKO,TKO Group Holdings,Communication Services,Movies & Entertainment,187.83,205.33,113.99,188.93,191.87,195.82,191.58,166.27,0.2,10.03,206.67,184.98
+TSCO,Tractor Supply,Consumer Discretionary,Other Specialty Retail,55.16,62.65,47.62,55.12,54.8,56.02,58.63,54.62,0.2,7.16,59.11,52.92
+USB,U.S. Bancorp,Financials,Diversified Banks,45.65,51.35,35.62,46.13,46.8,47.72,47.44,44.4,0.2,9.64,50.05,45.39
+URI,United Rentals,Industrials,Trading Companies & Distributors,1005.65,1020.0,549.5,990.14,988.23,968.82,946.21,762.81,0.2,1.31,1018.82,918.78
+UNH,UnitedHealth Group,Health Care,Managed Health Care,356.67,611.98,236.28,358.18,361.12,353.54,325.01,390.71,0.1,4.09,371.26,335.83
+VRTX,Vertex Pharmaceuticals,Health Care,Biotechnology,408.61,516.74,366.54,408.78,409.64,399.33,394.15,444.95,0.1,4.14,425.53,373.13
+V,Visa Inc.,Financials,Transaction & Payment Processing Services,335.4,372.65,277.34,343.28,346.64,343.87,343.81,343.48,0.2,5.57,354.08,333.66
+WBD,Warner Bros. Discovery,Communication Services,Broadcasting,18.29,19.82,7.33,17.92,18.18,18.82,15.38,11.6,0.2,11.48,20.39,17.25
+WAT,Waters Corporation,Health Care,Life Sciences Tools & Services,334.87,417.28,277.72,333.55,330.02,315.3,303.66,342.71,0.1,4.35,349.44,281.15
+WEC,WEC Energy Group,Utilities,Electric Utilities,116.19,117.28,89.8,116.01,115.16,113.66,110.42,104.94,0.2,1.26,117.65,109.67
+WFC,Wells Fargo,Financials,Diversified Banks,84.0,86.46,60.29,82.31,81.37,82.56,81.0,75.85,0.2,4.17,87.5,77.62
+WELL,Welltower,Real Estate,Health Care REITs,172.08,179.38,122.12,169.31,170.51,171.85,168.64,152.31,0.2,4.48,179.79,163.92
+WMB,Williams Companies,Energy,Oil & Gas Storage & Transportation,62.53,64.48,49.18,62.79,63.26,62.98,59.62,57.78,0.2,4.49,65.34,60.61
+XYL,Xylem Inc.,Industrials,Industrial Machinery & Supplies & Components,144.83,149.9,102.25,145.5,147.04,145.71,143.17,128.56,0.2,4.21,150.93,140.49
+YUM,Yum! Brands,Consumer Discretionary,Restaurants,143.38,160.96,121.48,142.79,144.89,147.81,146.73,144.65,0.2,8.64,155.77,139.86
